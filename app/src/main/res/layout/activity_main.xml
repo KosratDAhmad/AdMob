@@ -17,4 +17,12 @@
         android:text="Banner Ads"
         android:onClick="loadBanner"/>
 
+    <Button
+        android:id="@+id/btn_interstitial_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interstitial Ads"
+        android:onClick="loadInterstitial"
+        android:layout_below="@id/btn_banner_ads"/>
+
 </RelativeLayout>

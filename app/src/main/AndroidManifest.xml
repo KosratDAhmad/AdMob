@@ -26,6 +26,9 @@
         <activity android:name=".BannerActivity"
             android:label="Banner Ads"/>
 
+        <activity android:name=".InterstitialActivity"
+            android:label="Interstitial Ads"/>
+
         <!-- Activity required to show ad overlays. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
